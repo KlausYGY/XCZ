@@ -1,10 +1,10 @@
 /// @description 
 
-draw_sprite(Player,0,x,y);
+draw_sprite(spr_ceshi,0,x,y);
 
 
 
-draw_text(x-30, y+5, hp);
+draw_text(x-30, y+10, hp);
 draw_text(x-30, y+25, burn_layer);
 
 //点燃特效

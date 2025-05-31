@@ -20,8 +20,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"spr_wapian",
-    "path":"sprites/spr_wapian/spr_wapian.yy",
+    "name":"spr_CaoDi",
+    "path":"sprites/spr_CaoDi/spr_CaoDi.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{

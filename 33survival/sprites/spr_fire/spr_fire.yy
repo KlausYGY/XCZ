@@ -48,8 +48,8 @@
   },
   "origin":9,
   "parent":{
-    "name":"特效",
-    "path":"folders/资源/特效.yy",
+    "name":"技能",
+    "path":"folders/资源/特效/技能.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

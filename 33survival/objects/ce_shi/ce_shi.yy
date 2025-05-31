@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Player",
-    "path":"sprites/Player/Player.yy",
+    "name":"spr_ceshi",
+    "path":"sprites/spr_ceshi/spr_ceshi.yy",
   },
   "spriteMaskId":null,
   "visible":true,
