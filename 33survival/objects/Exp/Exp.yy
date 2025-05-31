@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Exp11",
-    "path":"sprites/Exp11/Exp11.yy",
+    "name":"spr_exp_red",
+    "path":"sprites/spr_exp_red/spr_exp_red.yy",
   },
   "spriteMaskId":null,
   "visible":true,
