@@ -1,0 +1,1 @@
+camera_destroy(view_camera[0]);//当实例被删除时或房间结束时被触发，删除指定的摄像机。

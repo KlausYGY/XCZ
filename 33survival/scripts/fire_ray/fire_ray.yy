@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"fire_ray",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"fire_ray",
+  "parent":{
+    "name":"技能",
+    "path":"folders/脚本/技能.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

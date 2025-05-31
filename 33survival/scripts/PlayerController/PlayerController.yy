@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"PlayerController",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"PlayerController",
+  "parent":{
+    "name":"玩家",
+    "path":"folders/脚本/玩家.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

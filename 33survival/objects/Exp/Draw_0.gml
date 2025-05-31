@@ -1,0 +1,1 @@
+draw_sprite_ext(Exp11, image_index, x, y, 2, 2, 0, image_blend, image_alpha);

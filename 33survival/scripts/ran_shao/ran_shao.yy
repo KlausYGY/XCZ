@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"ran_shao",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ran_shao",
+  "parent":{
+    "name":"技能",
+    "path":"folders/脚本/技能.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
