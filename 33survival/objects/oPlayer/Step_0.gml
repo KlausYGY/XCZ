@@ -76,3 +76,7 @@ if animation >= 6 { animation = 0; }
 
 weapon.x = x;
 weapon.y = y;
+
+//防止卡墙里。
+if x < 32 or x > room_width - 32 { x = xprevious; boost_x = 0; }
+if y < 32 or y > room_height - 32 { y = yprevious; boost_y = 0;}

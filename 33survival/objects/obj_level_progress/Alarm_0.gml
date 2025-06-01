@@ -12,3 +12,6 @@ ds_list_destroy(_list);
 if instance_exists(oPlayer) {
 	oPlayer.stop_using = true;
 }
+
+//进入强化界面。
+instance_create_layer(x, y, "Instances", obj_magic_strengthen);

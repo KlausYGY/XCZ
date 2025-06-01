@@ -19,7 +19,8 @@ bullet_damage = 3 + global.level_wave * 1;//攻击力。
 boost_x = 0;//被命中时，被击退的距离(不需要修改)。
 boost_y = 0;
 boost_defense = 1;//击退抗性。
-
+//用于怪物生成动画。
+xx = 1;
 
 //燃烧
 burn_layer = 0;

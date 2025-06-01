@@ -1,7 +1,7 @@
 /// @description 
 
 
-draw_sprite_ext(sprite, image_index, x , y, xscale, 1, 0, image_blend, image_alpha);
+draw_sprite_ext(sprite, image_index, x , y, xx * xscale, xx, 0, image_blend, image_alpha);
 if sjdh = 1{
 	tmd -=0.05;
 	//hp_jc = hp;

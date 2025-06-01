@@ -10,4 +10,8 @@ if global.level_time_lv = false {
 		instance_create_layer(x, y, "Instances", obj_hp_restore);
 	}
 }
-instance_create_depth(x,y, depth, Enemy_Slim_Dead);//播放史莱姆销毁动画
+var _dead = instance_create_depth(x,y, depth, obj_enemy_dead);//播放史莱姆销毁动画
+_dead.boost_x = boost_x;
+_dead.boost_y = boost_y;
+_dead.xx = xx;
+_dead.xscale = xscale;

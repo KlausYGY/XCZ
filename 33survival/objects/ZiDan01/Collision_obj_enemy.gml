@@ -2,9 +2,11 @@
 
 other.hp -= bullet_damage;//怪物掉血伤害
 
-other.sprite_blinzk = 1;//受击反馈
+other.sprite_blinzk = 1;//受击反馈。
 
-instance_destroy();//子弹消失
+other.xx = 1.6;//受击动画。
+
+instance_destroy();//子弹消失。
 
 
 //创建伤害飘字，让飘字图层在本体之上。

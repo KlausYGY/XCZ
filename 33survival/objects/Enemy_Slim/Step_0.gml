@@ -42,3 +42,8 @@ x += boost_x * boost_defense;
 y += boost_y * boost_defense;
 boost_x = lerp(boost_x, 0, 0.1);
 boost_y = lerp(boost_y, 0, 0.1);
+
+//用于怪物生成动画。
+if xx > 1 {
+	xx = lerp(xx, 1, 0.4);
+}

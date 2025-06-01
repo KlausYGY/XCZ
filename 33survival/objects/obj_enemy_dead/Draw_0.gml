@@ -1,0 +1,1 @@
+draw_sprite_ext(sprite, animation, x , y, xx * xscale, xx, 0, image_blend, image_alpha);

@@ -3,6 +3,9 @@ alarm[0] = 360;
 
 //如果关卡时间到了，那么暂停生成。
 if global.level_time_lv = false {
+	
+	xx = 2;
+	
 	//生成方案。
 	switch (mode) {
 		case 0:

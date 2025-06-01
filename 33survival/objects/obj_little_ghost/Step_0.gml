@@ -51,6 +51,7 @@ boost_y = lerp(boost_y, 0, 0.1);
 //如果玩家进入攻击范围，且子弹冷却完毕。
 if collision_circle(x, y, 300, oPlayer, false, true) and attack_loading = 0 {
 
+	xx = 1.5;
 	attack_loading = 300;
 	var _bullet_enemy = instance_create_layer(x, y, "Instances", obj_bullet_enemy);
 	_bullet_enemy.bullet_hp = 300;//子弹存在时间。
@@ -61,3 +62,8 @@ if collision_circle(x, y, 300, oPlayer, false, true) and attack_loading = 0 {
 
 //射击冷却。
 if attack_loading > 0 { attack_loading --; }
+
+//用于怪物生成动画。
+if xx > 1 {
+	xx = lerp(xx, 1, 0.4);
+}

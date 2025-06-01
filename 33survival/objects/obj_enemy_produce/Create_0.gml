@@ -9,3 +9,6 @@ produce_alarm = 120;
 
 //设置x帧后触发alarm[0]。
 alarm[0] = produce_alarm;
+
+//用于怪物生成动画。
+xx = 1;

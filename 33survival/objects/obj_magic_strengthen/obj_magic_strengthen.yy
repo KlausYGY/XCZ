@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"Enemy_Slim_Dead",
+  "%Name":"obj_magic_strengthen",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Enemy_Slim_Dead",
+  "name":"obj_magic_strengthen",
   "overriddenProperties":[],
   "parent":{
-    "name":"敌人",
-    "path":"folders/敌人.yy",
+    "name":"技能强化",
+    "path":"folders/Game/技能强化.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_slim_dead",
-    "path":"sprites/spr_slim_dead/spr_slim_dead.yy",
+    "name":"spr_level_progress",
+    "path":"sprites/spr_level_progress/spr_level_progress.yy",
   },
   "spriteMaskId":null,
   "visible":true,
