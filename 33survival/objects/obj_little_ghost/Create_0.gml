@@ -2,7 +2,7 @@
 
 //移动速度
 moveSpd = 0.7;
-hp = 6 + global.level_wave * 2;//血量
+hp = 1 + global.level_wave * 2;//血量
 hp_jc = hp;
 
 sprite_blinzk= 0;

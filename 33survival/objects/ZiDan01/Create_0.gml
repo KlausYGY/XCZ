@@ -1,9 +1,10 @@
 //子弹寿命倒计时
-alarm[0] = 120;
+alarm[0] = 60;
 
 //子弹伤害。
 bullet_damage = 3;
 attack_repel = 2;//击退力。
+armor_piercing = 2;
 
 create_trail = instance_create_layer(x,y,"Instances",obj_bullet_trail);
 create_trail.depth = depth + 1;

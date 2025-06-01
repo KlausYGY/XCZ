@@ -22,12 +22,12 @@ if global.level_time_lv = false {
 		
 		case 2:
 			//一次生成1-3个怪，百分之70概率是史莱姆，百分之30是小幽灵。
-			repeat (irandom_range(1,3)) {
+			repeat (irandom_range(1 + round(global.level_wave) / 2, 3 + round(global.level_wave))) {
 				var _enemy_random = irandom_range(0,100);
 				if _enemy_random < 70 {
-					instance_create_layer(x, y, "Instances", Enemy_Slim);
+					instance_create_layer(x + random_range(-6, 6), y + random_range(-6, 6), "Instances", Enemy_Slim);
 				}else{
-					instance_create_layer(x, y, "Instances", obj_little_ghost);
+					instance_create_layer(x + random_range(-6, 6), y + random_range(-6, 6), "Instances", obj_little_ghost);
 				}
 			}
 		break;

@@ -5,7 +5,7 @@ if collision_circle(x, y, attack_range, obj_enemy, false, true) {
 	if attack_loading <= 0 {
 		//生成子弹。
 		var _b = instance_create_depth(x,y, depth - 1, ZiDan01);
-		_b.direction = point_direction(x, y, _target.x, _target.y);
+		_b.direction = point_direction(x, y, _target.x, _target.y) + irandom_range(-attack_accuracy, attack_accuracy);
 		_b.speed = 6;
 		_b.bullet_damage = attack;
 		_b.attack_repel = attack_repel;
