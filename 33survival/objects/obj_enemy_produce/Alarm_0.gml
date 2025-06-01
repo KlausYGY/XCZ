@@ -1,5 +1,5 @@
 //重复生成。
-alarm[0] = produce_alarm;
+alarm[0] = 360;
 
 //如果关卡时间到了，那么暂停生成。
 if global.level_time_lv = false {

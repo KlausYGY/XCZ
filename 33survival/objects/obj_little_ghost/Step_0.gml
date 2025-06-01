@@ -7,6 +7,11 @@ if instance_exists(oPlayer){
 	ran_shao();
 	
 	move_towards_point(oPlayer.x, oPlayer.y, moveSpd);//追击玩家
+	if collision_circle(x, y, 150, oPlayer, false, true) {
+		if moveSpd > 0 { moveSpd -= 0.01; }
+	}else{
+		if moveSpd < 0.7 { moveSpd += 0.01; }
+	}
 	
 	//受击反馈
 	if hp_jc != hp
@@ -45,6 +50,7 @@ boost_y = lerp(boost_y, 0, 0.1);
 
 //如果玩家进入攻击范围，且子弹冷却完毕。
 if collision_circle(x, y, 300, oPlayer, false, true) and attack_loading = 0 {
+
 	attack_loading = 300;
 	var _bullet_enemy = instance_create_layer(x, y, "Instances", obj_bullet_enemy);
 	_bullet_enemy.bullet_hp = 300;//子弹存在时间。
@@ -52,5 +58,6 @@ if collision_circle(x, y, 300, oPlayer, false, true) and attack_loading = 0 {
 	_bullet_enemy.speed = 2;//子弹速度。
 	_bullet_enemy.direction = point_direction(x, y, oPlayer.x, oPlayer.y)//子弹角度。
 }
+
 //射击冷却。
 if attack_loading > 0 { attack_loading --; }

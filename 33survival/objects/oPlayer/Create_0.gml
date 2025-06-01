@@ -1,40 +1,30 @@
-/// @description 初始化玩家
-
-hp = 100;//血量
+hp = 20 + global.player_hp;//血量。
 hp_max = hp;//最大血量。
 hp_effect_0 = hp * (18 / hp_max);//绘制血条黑色背景。
 
-lv = 1;//初始等级
-EpxMax = 10;//初始最大经验
+//移动按键状态。
+keyboard_ad = 0; keyboard_ws = 0;
+//速度相关变量。
+speed_max = 2 + global.player_speed; 
+speed_up = speed_max / 10; //加速度，不用改。
+speed_down = speed_max / 10;//减速度，不用改。
+stop_using = false;
 
-WudiCdZD = 30;//最大无敌时间
-WudiCd = WudiCdZD;//无敌时间
+sprite = Player;//动画。
+xscale = 1;//朝向。
+animation = 0;//使用的动画。
+//移动时，武器上下动画。
+weapon_animation = 0;
+weapon_animation_lock = false;
 
-move_speed_init = 1.2;
-move_speed = move_speed_init;//移动速度
+//无敌时间。
+invincible_time_loading = 30 + global.invincible_time;
+invincible_time = invincible_time_loading;
 
-shan_bi_init = 10;//闪避距离
-shan_bi = shan_bi_init;
-shan_bi_kg = 0;//闪避开关
-shanx = x;
-shany = y;
-shan_bi_cdinit = 60;//闪避cd
-shan_bi_cd = shan_bi_cdinit;
+//闪避。
+boost_x = 0;
+boost_y = 0;
+boost_loading = 60;
+mask_loading = 30;
 
-detectRad = 60;//侦测半径
-
-spr = Player;//动画
-
-Fx = 1;//动画朝向
-
-shootCDinit = 20;//攻击CD
-shootCD = shootCDinit;
-
-Bulle01 = ZiDan01;//弹药类型
-
-//敌人列表
-//enemyList = ds_list_create();
-//当前敌人（无
-targetEnemy = noone;
-
-
+weapon = instance_create_layer(x, y, "Instances", obj_player_magic_0);

@@ -2,7 +2,7 @@
 
 //移动速度
 moveSpd = 0.7;
-hp = 20;//血量
+hp = 6 + global.level_wave * 2;//血量
 hp_jc = hp;
 
 sprite_blinzk= 0;
@@ -14,7 +14,7 @@ sjdh = 0;//受击白色
 impact_alarm_1 = 0;
 image_speed = 0.5;//动画速度。
 
-bullet_damage = 1;//攻击力。
+bullet_damage = 1 + global.level_wave * 1;//攻击力。
 attack_loading = 0;//攻击冷却。
 
 //对象被击退变量
@@ -27,6 +27,6 @@ boost_defense = 1;//击退抗性。
 burn_layer = 0;
 burn_damage = 0;
 burn_damage_max = 0;
-burn_alarm = 80;
+burn_alarm = 60;
 burn_lock = false;
 ani = 5;

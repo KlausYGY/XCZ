@@ -1,7 +1,7 @@
 /// @description 伤害玩家
 
-if other.WudiCd = other.WudiCdZD{
-	other.WudiCd = 0;
+if other.invincible_time_loading = other.invincible_time {
+	other.invincible_time = 0;
 	other.hp -= bullet_damage;
 	
 	//创建伤害飘字，让飘字图层在本体之上。

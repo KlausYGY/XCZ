@@ -1,13 +1,5 @@
-/// @description 初始化默认子弹
-
-//初始的移动速度
-move_speed = 5;
-
-//目标
-target = noone;
-
 //子弹寿命倒计时
-alarm[0] = 240;
+alarm[0] = 120;
 
 //子弹伤害。
 bullet_damage = 3;
