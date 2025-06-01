@@ -13,7 +13,7 @@ tmd = 1;//动画透明度
 sjdh = 0;//受击白色
 impact_alarm_1 = 0;
 
-bullet_damage = 3 + global.level_wave * 1;//攻击力。
+bullet_damage = round(3 + global.level_wave * 0.25);//攻击力。
 
 //对象被击退变量
 boost_x = 0;//被命中时，被击退的距离(不需要修改)。

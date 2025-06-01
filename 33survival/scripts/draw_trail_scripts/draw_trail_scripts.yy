@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"draw_trail_scripts",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"draw_trail_scripts",
+  "parent":{
+    "name":"掉落物",
+    "path":"folders/对象/掉落物.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

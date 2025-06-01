@@ -12,6 +12,8 @@ global.player_hp = 0;//玩家血量加成。
 global.invincible_time = 0;//无敌时间加成。
 global.player_magic_0_lv = 0;//小火球技能。
 
+global.exp_range = 100;//经验吸取范围
+
 alarm[0] = 60;//循环检测。
 alarm[1] = 10;//循环检测。
 

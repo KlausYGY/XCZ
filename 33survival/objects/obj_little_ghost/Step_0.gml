@@ -55,7 +55,7 @@ if collision_circle(x, y, 300, oPlayer, false, true) and attack_loading = 0 {
 	attack_loading = 300;
 	var _bullet_enemy = instance_create_layer(x, y, "Instances", obj_bullet_enemy);
 	_bullet_enemy.bullet_hp = 300;//子弹存在时间。
-	_bullet_enemy.bullet_damage = 2;//子弹伤害。
+	_bullet_enemy.bullet_damage = bullet_damage;//子弹伤害。
 	_bullet_enemy.speed = 2;//子弹速度。
 	_bullet_enemy.direction = point_direction(x, y, oPlayer.x, oPlayer.y)//子弹角度。
 }

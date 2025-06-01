@@ -14,7 +14,7 @@ sjdh = 0;//受击白色
 impact_alarm_1 = 0;
 image_speed = 0.5;//动画速度。
 
-bullet_damage = 1 + global.level_wave * 1;//攻击力。
+bullet_damage = round(1 + global.level_wave * 0.25);//攻击力。
 attack_loading = 0;//攻击冷却。
 
 //对象被击退变量
