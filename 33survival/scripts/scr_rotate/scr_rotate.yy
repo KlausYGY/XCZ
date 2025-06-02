@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_rotate",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_rotate",
+  "parent":{
+    "name":"蚊子",
+    "path":"folders/敌人/蚊子.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

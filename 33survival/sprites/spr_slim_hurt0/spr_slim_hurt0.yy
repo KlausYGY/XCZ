@@ -26,7 +26,7 @@
   "origin":9,
   "parent":{
     "name":"史莱姆",
-    "path":"folders/资源/敌人/史莱姆.yy",
+    "path":"folders/敌人/史莱姆.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

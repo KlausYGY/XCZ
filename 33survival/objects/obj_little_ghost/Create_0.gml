@@ -2,7 +2,7 @@
 
 //移动速度
 moveSpd = 0.7;
-hp = 1 + global.level_wave * 2;//血量
+hp = 3 + global.level_wave * 3;//血量
 hp_jc = hp;
 
 sprite_blinzk= 0;
@@ -25,9 +25,8 @@ boost_defense = 1;//击退抗性。
 xx = 1;
 
 //燃烧
-burn_layer = 0;
-burn_damage = 0;
+burn_animation = 5;//用于燃烧动画。
+burn_layer = 0;//燃烧层数。
+burn_damage = 0;//燃烧伤害。
 burn_damage_max = 0;
-burn_alarm = 60;
-burn_lock = false;
-ani = 5;
+burn_alarm = 60;//燃烧伤害间隔。

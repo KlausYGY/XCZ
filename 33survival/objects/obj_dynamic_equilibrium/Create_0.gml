@@ -10,6 +10,8 @@ global.exp_probability_green = 100 - global.exp_probability_blue - global.exp_pr
 global.player_speed = 0;//玩家移动速度加成。
 global.player_hp = 0;//玩家血量加成。
 global.invincible_time = 0;//无敌时间加成。
+global.armor_piercing = 0;//穿甲。
+global.bullet_speed = 0;//投射物速度。
 global.player_magic_0_lv = 0;//小火球技能。
 
 global.exp_range = 100;//经验吸取范围

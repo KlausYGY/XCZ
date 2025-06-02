@@ -13,8 +13,8 @@
   "name":"Enemy_Slim",
   "overriddenProperties":[],
   "parent":{
-    "name":"敌人",
-    "path":"folders/敌人.yy",
+    "name":"史莱姆",
+    "path":"folders/敌人/史莱姆.yy",
   },
   "parentObjectId":{
     "name":"obj_enemy",

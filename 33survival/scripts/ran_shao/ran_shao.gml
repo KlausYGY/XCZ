@@ -3,7 +3,7 @@ function ran_shao(){
 
 
 
-if burn_layer > 0 and burn_alarm = 60 and burn_lock = false {
+if burn_layer > 0 and burn_alarm = 30 and burn_lock = false {
 	burn_alarm = 0;
 	burn_lock = true;
 	var _damage = burn_damage / burn_layer;
@@ -18,7 +18,7 @@ if burn_layer > 0 and burn_alarm = 60 and burn_lock = false {
 	burn_damage_max = 0;
 }
 
-if burn_alarm < 60 {
+if burn_alarm < 30 {
 	burn_alarm += 1; 
 	
 	if burn_lock = true {

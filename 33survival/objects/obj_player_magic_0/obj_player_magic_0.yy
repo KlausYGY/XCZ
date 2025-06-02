@@ -10,8 +10,8 @@
   "name":"obj_player_magic_0",
   "overriddenProperties":[],
   "parent":{
-    "name":"玩家",
-    "path":"folders/玩家.yy",
+    "name":"子弹",
+    "path":"folders/玩家/子弹.yy",
   },
   "parentObjectId":null,
   "persistent":false,

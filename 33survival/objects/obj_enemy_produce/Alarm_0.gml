@@ -21,15 +21,60 @@ if global.level_time_lv = false {
 		break;
 		
 		case 2:
-			//一次生成1-3个怪，百分之70概率是史莱姆，百分之30是小幽灵。
-			repeat (irandom_range(1 + round(global.level_wave) / 2, 3 + round(global.level_wave))) {
-				var _enemy_random = irandom_range(0,100);
-				if _enemy_random < 70 {
-					instance_create_layer(x + random_range(-6, 6), y + random_range(-6, 6), "Instances", Enemy_Slim);
-				}else{
-					instance_create_layer(x + random_range(-6, 6), y + random_range(-6, 6), "Instances", obj_little_ghost);
-				}
+		if global.level_wave = 0 {
+			repeat (irandom_range(1, 2)) {
+				instance_create_layer(x + random_range(-6, 6), y + random_range(-6, 6), "Instances", Enemy_Slim); }}
+		if global.level_wave = 1 {
+			repeat (irandom_range(1, 2)) {
+				instance_create_layer(x + random_range(-6, 6), y + random_range(-6, 6), "Instances", Enemy_Slim); }
+			repeat (irandom_range(0, 1)) {
+				instance_create_layer(x + random_range(-6, 6), y + random_range(-6, 6), "Instances", obj_mozzie); }}
+		if global.level_wave = 2 {
+			repeat (irandom_range(1, 2)) {
+				instance_create_layer(x + random_range(-6, 6), y + random_range(-6, 6), "Instances", Enemy_Slim); }
+			repeat (irandom_range(0, 1)) {
+				instance_create_layer(x + random_range(-6, 6), y + random_range(-6, 6), "Instances", obj_little_ghost); }}
+		if global.level_wave = 3 {
+			repeat (irandom_range(1, 3)) {
+				instance_create_layer(x + random_range(-6, 6), y + random_range(-6, 6), "Instances", Enemy_Slim); }
+			repeat (irandom_range(0, 1)) {
+				instance_create_layer(x + random_range(-6, 6), y + random_range(-6, 6), "Instances", obj_little_ghost); }}
+		if global.level_wave = 4 {
+			repeat (irandom_range(3, 5)) {
+				instance_create_layer(x + random_range(-32, 32), y + random_range(-32, 32), "Instances", obj_mozzie); }}
+		if global.level_wave = 5 {
+			repeat (irandom_range(2, 4)) {
+				instance_create_layer(x + random_range(-6, 6), y + random_range(-6, 6), "Instances", Enemy_Slim); }
+			repeat (irandom_range(0, 1)) {
+				instance_create_layer(x + random_range(-6, 6), y + random_range(-6, 6), "Instances", obj_mushroom_man); }}
+		if global.level_wave = 6 {
+			repeat (irandom_range(1, 4)) {
+				instance_create_layer(x + random_range(-6, 6), y + random_range(-6, 6), "Instances", Enemy_Slim); }
+			repeat (irandom_range(0, 1)) {
+				instance_create_layer(x + random_range(-6, 6), y + random_range(-6, 6), "Instances", obj_mushroom_man); }
+			repeat (irandom_range(1, 2)) {
+				instance_create_layer(x + random_range(-6, 6), y + random_range(-6, 6), "Instances", obj_mozzie); }}
+		if global.level_wave = 7 {
+			repeat (irandom_range(1, 4)) {
+				instance_create_layer(x + random_range(-6, 6), y + random_range(-6, 6), "Instances", obj_mozzie); }
+			repeat (irandom_range(1, 2)) {
+				instance_create_layer(x + random_range(-6, 6), y + random_range(-6, 6), "Instances", obj_mushroom_man); }
+			repeat (irandom_range(0, 3)) {
+				instance_create_layer(x + random_range(-6, 6), y + random_range(-6, 6), "Instances", obj_little_ghost); }}
+		if global.level_wave = 8 {
+			repeat (irandom_range(2, 6)) {
+				instance_create_layer(x + random_range(-6, 6), y + random_range(-6, 6), "Instances", obj_mushroom_man); }}
+		if global.level_wave = 9 {
+			repeat (irandom_range(1, 3)) {
+				instance_create_layer(x + random_range(-6, 6), y + random_range(-6, 6), "Instances", obj_mozzie); }
+			repeat (irandom_range(1, 3)) {
+				instance_create_layer(x + random_range(-6, 6), y + random_range(-6, 6), "Instances", obj_mushroom_man); }
+			repeat (irandom_range(1, 3)) {
+				instance_create_layer(x + random_range(-6, 6), y + random_range(-6, 6), "Instances", obj_little_ghost); }
+			repeat (irandom_range(1, 3)) {
+				instance_create_layer(x + random_range(-6, 6), y + random_range(-6, 6), "Instances", Enemy_Slim); }
 			}
+			
 		break;
 	
 			//没用的。

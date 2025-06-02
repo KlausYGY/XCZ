@@ -12,21 +12,22 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"b5a2dfe8-e408-4adc-8397-b6bc715a7b9c","name":"b5a2dfe8-e408-4adc-8397-b6bc715a7b9c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"96e07516-3f53-41c9-8c9b-170165a6dc76","name":"96e07516-3f53-41c9-8c9b-170165a6dc76","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"63af3c85-2e43-409d-8599-c9b8470809be","name":"63af3c85-2e43-409d-8599-c9b8470809be","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":10,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"6cfef40f-6783-43df-84cf-0b8f61210b8a","blendMode":0,"displayName":"default","isLocked":false,"name":"6cfef40f-6783-43df-84cf-0b8f61210b8a","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"12832e49-590b-4e00-8b90-a7f9a9409a55","blendMode":0,"displayName":"default","isLocked":false,"name":"12832e49-590b-4e00-8b90-a7f9a9409a55","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_bullet_enemy",
   "nineSlice":null,
   "origin":4,
   "parent":{
     "name":"小幽灵",
-    "path":"folders/资源/敌人/小幽灵.yy",
+    "path":"folders/敌人/小幽灵.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -49,7 +50,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":1.0,
+    "length":2.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -71,8 +72,11 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b5a2dfe8-e408-4adc-8397-b6bc715a7b9c","path":"sprites/spr_bullet_enemy/spr_bullet_enemy.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"aa28d9f6-94e9-47b5-aa3c-1d58dce3ee57","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"96e07516-3f53-41c9-8c9b-170165a6dc76","path":"sprites/spr_bullet_enemy/spr_bullet_enemy.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"84b99399-d77d-4fc6-a7ad-980153a51a90","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"63af3c85-2e43-409d-8599-c9b8470809be","path":"sprites/spr_bullet_enemy/spr_bullet_enemy.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"5e42c16b-915c-445a-a679-b94641fb3708","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

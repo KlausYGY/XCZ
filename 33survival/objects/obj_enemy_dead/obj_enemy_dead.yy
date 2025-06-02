@@ -10,8 +10,8 @@
   "name":"obj_enemy_dead",
   "overriddenProperties":[],
   "parent":{
-    "name":"敌人",
-    "path":"folders/敌人.yy",
+    "name":"史莱姆",
+    "path":"folders/敌人/史莱姆.yy",
   },
   "parentObjectId":null,
   "persistent":false,

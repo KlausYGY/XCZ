@@ -28,7 +28,7 @@
   "origin":4,
   "parent":{
     "name":"小幽灵",
-    "path":"folders/资源/敌人/小幽灵.yy",
+    "path":"folders/敌人/小幽灵.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

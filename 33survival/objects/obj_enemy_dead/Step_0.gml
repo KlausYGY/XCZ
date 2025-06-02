@@ -10,5 +10,5 @@ if xx > 1 {
 }
 
 //动画结束销毁自己。
-if animation < 5 { animation += 0.5; }
-if animation >= 5 { instance_destroy(); }
+if animation < animation_max { animation += 0.5; }
+if animation >= animation_max { instance_destroy(); }

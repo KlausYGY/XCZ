@@ -6,5 +6,6 @@ boost_defense = 1;//击退抗性。
 xx = 1;
 xscale = 1;
 animation = 0;//使用的动画(不需要修改)。
+animation_max = 5;
 
 sprite = spr_slim_dead;

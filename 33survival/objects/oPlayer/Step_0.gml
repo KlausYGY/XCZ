@@ -59,6 +59,8 @@ if boost_loading = 0 and keyboard_check(vk_space) {
 	boost_x = lengthdir_x(10, direction);
 	boost_y = lengthdir_y(10, direction);
 }
+
+//被击退。
 x += boost_x;
 y += boost_y;
 boost_x = lerp(boost_x, 0, 0.1);
@@ -74,6 +76,7 @@ if hp <= 0 {
 if animation < 6 { animation += 0.25; }
 if animation >= 6 { animation = 0; }
 
+//武器跟随。
 weapon.x = x;
 weapon.y = y;
 

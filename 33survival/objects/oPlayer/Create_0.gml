@@ -16,6 +16,7 @@ animation = 0;//使用的动画。
 //移动时，武器上下动画。
 weapon_animation = 0;
 weapon_animation_lock = false;
+weapon_direction = 0;//武器角度。
 
 //无敌时间。
 invincible_time_loading = 30 + global.invincible_time;

@@ -4,3 +4,4 @@
 
 create_trail.dead = true;
 instance_create_depth(x,y, depth, ZiDan01_Dead);//播放子弹销毁动画
+ds_list_destroy(_list);		

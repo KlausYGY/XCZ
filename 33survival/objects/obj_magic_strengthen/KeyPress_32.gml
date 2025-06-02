@@ -8,4 +8,5 @@ if global.level_time_lv = true and round(obj_level_progress.alarm[0] / 60) = 0 {
 		oPlayer.stop_using = false;
 	}
 	obj_dynamic_equilibrium.alarm[1] = 10;//循环检测。
+	
 }

@@ -10,4 +10,6 @@ if global.level_time_lv = false {
 		instance_create_layer(x, y, "Instances", obj_hp_restore);
 	}
 }
-//instance_create_depth(x,y, depth, Enemy_Slim_Dead);//播放销毁动画
+var _dead = instance_create_depth(x,y, depth, obj_enemy_dead);//播放销毁动画。
+_dead.sprite = spr_little_ghost_dead;
+_dead.animation_max = 2;

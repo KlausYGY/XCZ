@@ -12,8 +12,8 @@
   "name":"obj_little_ghost",
   "overriddenProperties":[],
   "parent":{
-    "name":"敌人",
-    "path":"folders/敌人.yy",
+    "name":"小幽灵",
+    "path":"folders/敌人/小幽灵.yy",
   },
   "parentObjectId":{
     "name":"obj_enemy",
