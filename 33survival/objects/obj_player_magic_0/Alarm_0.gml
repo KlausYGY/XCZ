@@ -12,18 +12,22 @@ if attack_loading_excess < 0 {
 //伤害。
 attack = round(3 + (global.player_magic_0_lv * 0.5) + excess);
 //击退力。
-attack_repel = 2 + (global.player_magic_0_lv * 0.1);
+attack_repel = 2 + (global.player_magic_0_lv * 0.2) + global.attack_repel;
 //精度。
-attack_accuracy = global.player_magic_0_lv * 0.5;
+attack_accuracy = global.player_magic_0_lv * 0.5 * global.attack_accuracy; 
+if attack_accuracy < 0 { attack_accuracy = 0; }
 //穿甲。
 armor_piercing = global.armor_piercing;
 //投射物速度。
-bullet_speed = 4 + global.bullet_speed * 0.2;
+bullet_speed = 4 * global.bullet_speed;
 //索敌范围。
-attack_range = 120 + (global.player_magic_0_lv * 6); 
+attack_range = (120 + (global.player_magic_0_lv * 6)) * global.attack_range; 
 //子弹存在时间。
 hp_alarm = round(attack_range / bullet_speed);
 
 //施加燃烧。
-burn = 100 + (global.player_magic_0_lv * 2);
-burn_damage = round(2 + (global.player_magic_0_lv * 0.5));
+burn = 50 + (global.player_magic_0_lv * 4);//燃烧概率。
+if burn > 100 {
+	burn_overflow = round((100 - burn) / 2);
+}
+burn_damage = round(2 + (global.player_magic_0_lv * 0.5)) + burn_overflow;//燃烧伤害。
