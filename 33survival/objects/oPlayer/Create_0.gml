@@ -1,4 +1,4 @@
-hp = 20 + global.player_hp;//血量。
+hp = 20;//血量。
 hp_max = hp + global.player_hp;//最大血量。
 hp_effect_0 = hp * (18 / hp_max);//绘制血条黑色背景。
 alarm[1] = 240;//自动回血。

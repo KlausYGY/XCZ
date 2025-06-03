@@ -8,6 +8,9 @@ global.exp_probability_blue = irandom_range(0, 100 - global.exp_probability_red)
 global.exp_probability_green = 100 - global.exp_probability_blue - global.exp_probability_red;
 
 //红色相关。
+global.red_up_lv = 0;//红色强化技能。
+global.attack = 1;//攻击伤害加成（大于1强化）。
+global.attack_speed = 1;//攻击速度加成（小于1强化）。
 global.armor_piercing = 0;//穿甲加成。
 global.player_magic_0_lv = 0;//小火球技能。
 //蓝色相关。
