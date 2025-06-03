@@ -97,8 +97,10 @@
     {"name":"spr_slim_hurt","order":2,"path":"sprites/spr_slim_hurt/spr_slim_hurt.yy",},
     {"name":"spr_slim_hurt0","order":3,"path":"sprites/spr_slim_hurt0/spr_slim_hurt0.yy",},
     {"name":"spr_slim","order":1,"path":"sprites/spr_slim/spr_slim.yy",},
+    {"name":"spr_Tudi","order":4,"path":"sprites/spr_Tudi/spr_Tudi.yy",},
     {"name":"spr_yun_shi","order":5,"path":"sprites/spr_yun_shi/spr_yun_shi.yy",},
     {"name":"ZiDan017","order":1,"path":"sprites/ZiDan017/ZiDan017.yy",},
     {"name":"tm_CaoDi","order":1,"path":"tilesets/tm_CaoDi/tm_CaoDi.yy",},
+    {"name":"tm_Tudi","order":5,"path":"tilesets/tm_Tudi/tm_Tudi.yy",},
   ],
 }
