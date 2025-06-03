@@ -87,6 +87,7 @@
     {"id":{"name":"obj_mushroom_man","path":"objects/obj_mushroom_man/obj_mushroom_man.yy",},},
     {"id":{"name":"obj_player_magic_0","path":"objects/obj_player_magic_0/obj_player_magic_0.yy",},},
     {"id":{"name":"obj_red_up","path":"objects/obj_red_up/obj_red_up.yy",},},
+    {"id":{"name":"obj_shotgun","path":"objects/obj_shotgun/obj_shotgun.yy",},},
     {"id":{"name":"obj_yun_shi","path":"objects/obj_yun_shi/obj_yun_shi.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"oSystem","path":"objects/oSystem/oSystem.yy",},},

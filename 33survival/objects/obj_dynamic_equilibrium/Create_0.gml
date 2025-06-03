@@ -13,6 +13,7 @@ global.attack = 1;//攻击伤害加成（大于1强化）。
 global.attack_speed = 1;//攻击速度加成（小于1强化）。
 global.armor_piercing = 0;//穿甲加成。
 global.player_magic_0_lv = 0;//小火球技能。
+global.shotgun = 0;//散射。
 //蓝色相关。
 global.blue_up_lv = 0;//蓝色强化技能。
 global.player_speed = 0;//玩家移动速度加成。

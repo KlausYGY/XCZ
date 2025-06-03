@@ -60,6 +60,7 @@
     {"name":"obj_mushroom_man","order":1,"path":"objects/obj_mushroom_man/obj_mushroom_man.yy",},
     {"name":"obj_player_magic_0","order":2,"path":"objects/obj_player_magic_0/obj_player_magic_0.yy",},
     {"name":"obj_red_up","order":7,"path":"objects/obj_red_up/obj_red_up.yy",},
+    {"name":"obj_shotgun","order":8,"path":"objects/obj_shotgun/obj_shotgun.yy",},
     {"name":"obj_yun_shi","order":5,"path":"objects/obj_yun_shi/obj_yun_shi.yy",},
     {"name":"oPlayer","order":1,"path":"objects/oPlayer/oPlayer.yy",},
     {"name":"ZiDan01_Dead","order":1,"path":"objects/ZiDan01_Dead/ZiDan01_Dead.yy",},

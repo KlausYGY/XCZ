@@ -74,6 +74,22 @@ if global.level_time_lv = false {
 			repeat (irandom_range(1, 3)) {
 				instance_create_layer(x + random_range(-6, 6), y + random_range(-6, 6), "Instances", Enemy_Slim); }
 			}
+		if global.level_wave > 9 {
+			var _wave_4_9 = choose(1, 1, 1, 2, 2, 3, 3, 4);
+			if _wave_4_9 = 1 {
+				repeat (irandom_range(global.level_wave / 2, global.level_wave)) {
+				instance_create_layer(x + random_range(-6, 6), y + random_range(-6, 6), "Instances", Enemy_Slim); }}
+			if _wave_4_9 = 2 {
+				repeat (irandom_range(global.level_wave / 2, global.level_wave)) {
+				instance_create_layer(x + random_range(-6, 6), y + random_range(-6, 6), "Instances", obj_little_ghost); }}	
+			if _wave_4_9 = 3 {
+				repeat (irandom_range(global.level_wave / 2, global.level_wave)) {
+				instance_create_layer(x + random_range(-6, 6), y + random_range(-6, 6), "Instances", obj_mozzie); }}
+			if _wave_4_9 = 4 {
+				repeat (irandom_range(global.level_wave / 2, global.level_wave)) {
+				instance_create_layer(x + random_range(-6, 6), y + random_range(-6, 6), "Instances", obj_mushroom_man); }}
+
+			}
 			
 		break;
 	
