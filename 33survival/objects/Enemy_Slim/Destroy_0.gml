@@ -6,7 +6,7 @@ if global.level_time_lv = false {
 	
 	//死亡时，百分之5 + 动态血瓶概率加成 的概率掉落血瓶。
 	var _random_hp_restore = irandom_range(0,100);
-	if _random_hp_restore < 2 + global.hp_restore {
+	if _random_hp_restore < 2 + global.hp_restore + obj_dynamic_equilibrium.hp_restore_up {
 		instance_create_layer(x, y, "Instances", obj_hp_restore);
 	}
 }

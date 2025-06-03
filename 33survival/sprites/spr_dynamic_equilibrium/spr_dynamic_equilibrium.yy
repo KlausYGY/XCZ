@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"字体",
-    "path":"folders/字体.yy",
+    "name":"Game",
+    "path":"folders/Game.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
