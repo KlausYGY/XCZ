@@ -30,8 +30,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"玩家",
-    "path":"folders/玩家.yy",
+    "name":"脚本",
+    "path":"folders/脚本.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

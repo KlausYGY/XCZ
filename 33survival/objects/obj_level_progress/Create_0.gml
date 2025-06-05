@@ -16,3 +16,9 @@ repeat(_repeat){
 	//怪物生成方案（具体在obj_enemy_produce中）。
 	enemy_produce.mode = 2;
 }
+
+//在地图上的随机位置生成魔法矿石。
+var _magic_stone = choose(0,0,1);
+if _magic_stone = 1 {
+	instance_create_layer(random_range(0,room_width), random_range(0,room_height), "Instances", obj_magic_stone);
+}

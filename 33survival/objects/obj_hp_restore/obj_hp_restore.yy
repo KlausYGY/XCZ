@@ -11,10 +11,7 @@
     "name":"掉落物",
     "path":"folders/对象/掉落物.yy",
   },
-  "parentObjectId":{
-    "name":"Exp",
-    "path":"objects/Exp/Exp.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

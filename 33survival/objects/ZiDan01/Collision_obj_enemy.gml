@@ -6,7 +6,9 @@ if _list_size = 0 {
 	other.hp -= bullet_damage;//怪物掉血伤害。
 	other.sprite_blinzk = 1;//受击反馈。
 	other.xx = 1.6;//受击动画。
-	
+	//击退目标。
+	other.boost_x = lengthdir_x(attack_repel, direction);
+	other.boost_y = lengthdir_y(attack_repel, direction);
 	//如果roll的概率小于燃烧概率的值，那么
 	if burn_probability <= burn {	
 		//如果敌人的燃烧层数小于10，那么叠加一层燃烧并传递燃烧伤害。
@@ -32,7 +34,10 @@ if _list_size > 0 {
 			other.hp -= bullet_damage;//怪物掉血伤害。
 			other.sprite_blinzk = 1;//受击反馈。
 			other.xx = 1.6;//受击动画。
-			
+			//击退目标。
+			other.boost_x = lengthdir_x(attack_repel, direction);
+			other.boost_y = lengthdir_y(attack_repel, direction);
+			attack_repel = attack_repel / 2;
 			//如果roll的概率小于燃烧概率的值，那么
 			if burn_probability <= burn {	
 				//如果敌人的燃烧层数小于10，那么叠加一层燃烧并传递燃烧伤害。
