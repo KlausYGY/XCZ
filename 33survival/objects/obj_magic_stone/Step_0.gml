@@ -42,3 +42,5 @@ if burn_layer > 0 and burn_alarm = 60 {
 	burn_damage_max = 0;
 }
 #endregion
+
+scr_uid_missile();//创建标识。

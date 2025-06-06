@@ -1,6 +1,7 @@
 //用于刷新属性。
 hp = 20;//血量。
 hp_max = hp + global.player_hp;//最大血量。
+defense = global.defense;//防御力。
 var _hp_up = hp_max - hp {
 	hp += _hp_up;
 }

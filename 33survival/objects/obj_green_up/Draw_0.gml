@@ -31,6 +31,6 @@ if random_up_text_mode = 4 {
 	draw_text_transformed_color(x - 26, y + 80, "冲刺无敌时间 + "  + string( random_up_text_darw ), 0.4, 0.4, 0,  c_white,  c_white,  c_white,  c_white, image_alpha);
 }
 if random_up_text_mode = 5 {
-	draw_text_transformed_color(x - 26, y + 60, "! 血瓶掉落量提升 !", 0.6, 0.6, 0,  c_white,  c_white,  c_white,  c_white, image_alpha);
-	draw_text_transformed_color(x - 26, y + 80, "血瓶掉落量 + "  + string( random_up_text_darw ), 0.4, 0.4, 0,  c_white,  c_white,  c_white,  c_white, image_alpha);
+	draw_text_transformed_color(x - 26, y + 60, "! 防御力提升 !", 0.6, 0.6, 0,  c_white,  c_white,  c_white,  c_white, image_alpha);
+	draw_text_transformed_color(x - 26, y + 80, "敌人造成的伤害为 : "  + string( global.defense ), 0.4, 0.4, 0,  c_white,  c_white,  c_white,  c_white, image_alpha);
 }

@@ -18,8 +18,8 @@ if global.exp_green >= (level * 5) {
 		random_up_text_darw = irandom_range(5, 15);
 		global.invincible_time -= random_up_text_darw; }//闪避无敌时间加成。
 	if _random_up = 5 { 
-		random_up_text_darw = 1;
-		obj_dynamic_equilibrium.hp_restore_up += random_up_text_darw; }//血瓶掉落率加成。
+		random_up_text_darw = random_range(0.1 * global.defense, 0.3 * global.defense);
+		global.defense -= random_up_text_darw; }//防御加成。
 	
 	//if instance_exists(obj_player_magic_0) { obj_player_magic_0.alarm[0] = 1;}//刷新武器状态。
 	if instance_exists(oPlayer) { oPlayer.alarm[0] = 1;}//刷新角色状态。

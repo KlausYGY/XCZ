@@ -1,10 +1,13 @@
 //子弹寿命倒计时
 alarm[0] = 60;
 
-//子弹伤害。
-bullet_damage = 3;
+bullet_damage = 3;//子弹伤害。
 attack_repel = 2;//击退力。
-armor_piercing = 1;
+armor_piercing = 1;//穿甲。
+boom = 0;//爆炸。
+boom_range = 0;//爆炸。
+boom_lock = false;
+boom_draw = false;
 
 create_trail = instance_create_layer(x,y,"Instances",obj_bullet_trail);
 create_trail.depth = depth + 1;

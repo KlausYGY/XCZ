@@ -1,0 +1,10 @@
+src = obj_camera_0;//以摄像机为圆心。
+dst_x = 0;//该指针属于谁的坐标。
+dst_y = 0;
+pad = 20;//距离视野边框的距离。
+inner = 60;
+dead = false;//销毁。
+sprite = slim_spawn;//使用的精灵。
+xx = 1;//精灵的大小。
+dir_lock = false;
+animation = 0;//使用的动画。

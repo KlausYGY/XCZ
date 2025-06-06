@@ -8,4 +8,6 @@ if instance_exists(oPlayer) {
 	magic_3 = instance_create_layer(oPlayer.x + 100, oPlayer.y - 100, "magic", obj_red_up);
 	
 	magic_4 = instance_create_layer(oPlayer.x + 100, oPlayer.y + 100, "magic", obj_shotgun);
+	
+	magic_5 = instance_create_layer(oPlayer.x + 0, oPlayer.y + 100, "magic", obj_boom_bullet);
 }

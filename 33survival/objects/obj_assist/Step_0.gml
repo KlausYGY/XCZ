@@ -1,0 +1,1 @@
+if dead = true { instance_destroy(); }//销毁指针。

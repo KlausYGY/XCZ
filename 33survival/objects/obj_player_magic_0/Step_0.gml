@@ -19,7 +19,9 @@ if collision_circle(x, y, attack_range, obj_enemy, false, true) {
 			_b.armor_piercing = armor_piercing;
 			_b.alarm[0] = hp_alarm;
 			_b.burn = burn;
-			_b.burn_damage = burn_damage;
+			_b.burn_damage = burn_damage;//燃烧伤害。
+			_b.boom = boom;//是否启动爆炸(大于0)。
+			_b.boom_range = boom_range;//爆炸范围。
 			attack_loading = attack_loading_max;
 		}
 	}

@@ -2,6 +2,7 @@ hp = 20;//血量。
 hp_max = hp + global.player_hp;//最大血量。
 hp_effect_0 = hp * (18 / hp_max);//绘制血条黑色背景。
 alarm[1] = 240;//自动回血。
+defense = global.defense;//防御力。
 
 //移动按键状态。
 keyboard_ad = 0; keyboard_ws = 0;
